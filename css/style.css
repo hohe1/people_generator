@@ -1,0 +1,25 @@
+body{
+    background-color: #80664d;
+}
+
+#generate{
+    width: 100px;
+    height: 30px;
+}
+
+#generate:hover{
+    /*box-shadow: 0px 0px 50px blue;*/
+    animation-name: colorChange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes colorChange{
+    from{box-shadow: 0px 0px 50px #7cbdff}
+    20%{box-shadow: 0px 0px 75px #7c94ff}
+    40%{box-shadow: 0px 0px 100px #7e7cff}
+    60%{box-shadow: 0px 0px 75px #8f7cff}
+    80%{box-shadow: 0px 0px 50px #a57cff}
+    100%{box-shadow: 0px 0px 25px #d17cff}
+}
